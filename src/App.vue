@@ -20,7 +20,7 @@
         </a>
       </div>
     </div>
-    <footer class="w-full bg-gray-400 text-center p-2">
+    <footer class="w-full bg-gray-400 dark:bg-gray-600 text-center p-2">
       <p>
         Made with
         <a href="https://bun.sh" rel="noopener noreferrer" target="_blank">Bun</a>,
