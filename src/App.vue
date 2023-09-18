@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <h1 class="m-5 text-5xl text-center">codeman1o1.me</h1>
+    <h1 class="m-5 text-4xl md:text-5xl text-center">codeman1o1.me</h1>
     <div class="flex-grow">
       <div class="grid gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
         <a
