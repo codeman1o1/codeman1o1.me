@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <h1 class="m-5 text-4xl md:text-5xl text-center">codeman1o1.me</h1>
+    <h1 class="m-5 text-4xl md:text-5xl text-center">{{ headerText }}</h1>
     <div class="flex-grow">
       <div class="grid gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
         <a
@@ -58,4 +58,21 @@ const apps = ref<
     url: "https://agyl.nl"
   }
 ])
+
+const headerText = ref("codeman1o1.me")
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Equal") {
+    const newText = headerText.value.slice(0, 8) + "o" + headerText.value.slice(8)
+    headerText.value = newText
+    document.title = newText
+  }
+  if (e.code === "Minus") {
+    if (headerText.value[8] === "o") {
+      const newText = headerText.value.slice(0, 8) + headerText.value.slice(9)
+      headerText.value = newText
+      document.title = newText
+    }
+  }
+})
 </script>
