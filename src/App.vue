@@ -9,7 +9,7 @@
           :href="app.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col items-center p-4 hover:bg-gray-300 transition-colors rounded-md"
+          class="flex flex-col items-center p-4 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors rounded-md"
         >
           <img
             :src="app.imagePath ?? `/images/${app.name}.svg`"
