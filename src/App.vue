@@ -12,7 +12,7 @@
           class="flex flex-col items-center p-4 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors rounded-md"
         >
           <img
-            :src="app.imagePath ?? `/images/${app.name}.svg`"
+            :src="app.imagePath ?? `/images/${app.name.replace(' ', '')}.svg`"
             :alt="`${app.name} logo`"
             class="w-32 h-32"
           />
@@ -52,6 +52,10 @@ const apps = ref<
   {
     name: "Portainer",
     url: "https://portainer.codeman1o1.me"
+  },
+  {
+    name: "Uptime Kuma",
+    url: "https://kuma.codeman1o1.me"
   },
   {
     name: "Agyl",
