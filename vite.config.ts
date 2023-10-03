@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: "codeman1o1.me",
         short_name: "codeman1o1.me",
-        icons: [{ src: "/icon-144x144.png", sizes: "144x144", type: "image/png" }]
+        icons: [{ src: "/icon.png", sizes: "256x256", type: "image/png" }]
       }
     })
   ],
