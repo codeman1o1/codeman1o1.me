@@ -46,6 +46,10 @@ const apps = ref<
     url: "https://cloud.codeman1o1.me"
   },
   {
+    name: "Zipline",
+    url: "https://zipline.codeman1o1.me"
+  },
+  {
     name: "Grafana",
     url: "https://grafana.codeman1o1.me"
   },
