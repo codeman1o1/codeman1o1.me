@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
