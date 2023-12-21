@@ -1,0 +1,27 @@
+version: 2
+updates:
+  # Will this work when using Bun?
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      vue:
+        patterns:
+          - "*vue*"
+          - "*vite*"
+      prettier-eslint:
+        patterns:
+          - "*prettier*"
+          - "*eslint*"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "monthly"
