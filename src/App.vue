@@ -46,10 +46,6 @@ const apps = ref<
     url: "https://cloud.codeman1o1.me"
   },
   {
-    name: "Zipline",
-    url: "https://zipline.codeman1o1.me"
-  },
-  {
     name: "Grafana",
     url: "https://grafana.codeman1o1.me"
   },
@@ -60,6 +56,10 @@ const apps = ref<
   {
     name: "Uptime Kuma",
     url: "https://kuma.codeman1o1.me"
+  },
+  {
+    name: "Zipline",
+    url: "https://zipline.codeman1o1.me"
   },
   {
     name: "Agyl",
