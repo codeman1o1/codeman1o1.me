@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div>
     <h1 class="m-5 text-4xl md:text-5xl text-center">{{ headerText }}</h1>
-    <div class="flex-grow">
+    <div>
       <div class="grid gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
         <a
           v-for="app in apps"
@@ -20,14 +20,6 @@
         </a>
       </div>
     </div>
-    <footer class="w-full bg-gray-400 dark:bg-gray-600 text-center p-2">
-      <p>
-        Made with
-        <a href="https://bun.sh" rel="noopener noreferrer" target="_blank">Bun</a>,
-        <a href="https://vuejs.org" rel="noopener noreferrer" target="_blank">Vue</a> and
-        <a href="https://tailwindcss.com" rel="noopener noreferrer" target="_blank">Tailwind CSS</a>
-      </p>
-    </footer>
   </div>
 </template>
 
