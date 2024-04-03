@@ -1,0 +1,17 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1e293b;
+	}
+	:not(:empty) {
+		color: #e5e7eb;
+	}
+}
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #f1f5f9;
+	}
+}
