@@ -2,6 +2,7 @@ services:
   website:
     container_name: codeman1o1-me
     build: "."
+    image: codeman1o1/codeman1o1-me
     ports:
       - "1450:3000"
     restart: unless-stopped
