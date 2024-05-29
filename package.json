@@ -15,7 +15,6 @@
   "dependencies": {
     "@nuxt/eslint": "^0.3.0-beta.7",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@vercel/analytics": "^1.2.2",
     "@vite-pwa/nuxt": "^0.6.0",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
