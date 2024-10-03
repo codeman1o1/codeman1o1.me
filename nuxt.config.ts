@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt"],
+	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxt/eslint"],
 	pwa: {
 		registerType: "autoUpdate",
 		manifest: {
@@ -39,5 +39,9 @@ export default defineNuxtConfig({
 		}
 	},
 	css: ["~/assets/css/main.css"],
+	typescript: {
+		typeCheck: true
+	},
+	compatibilityDate: "2024-04-03",
 	devtools: { enabled: true }
 })
