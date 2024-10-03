@@ -1,19 +1,17 @@
-FROM oven/bun:1-alpine
+FROM node:20-alpine
 
 WORKDIR /usr/src/app
 
 ENV NODE_ENV=production
 
-COPY package.json bun.lockb ./
+COPY package*.json ./
 
-RUN bun install --production --frozen-lockfile
+RUN npm ci --omit=dev
 
 COPY . .
 
-RUN bun run build
+RUN npm run build
 
-USER bun
+EXPOSE 3000
 
-EXPOSE 3000/tcp
-
-ENTRYPOINT [ "bun", "run", ".output/server/index.mjs" ]
+CMD [ "node", ".output/server/index.mjs" ]
