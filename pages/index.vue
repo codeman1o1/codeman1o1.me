@@ -17,7 +17,7 @@
 					<NuxtImg
 						:src="app.imagePath ?? `/images/${app.name.replace(' ', '')}.svg`"
 						:alt="`${app.name} logo`"
-						class="h-32 w-32"
+						class="size-32"
 					/>
 					<p class="parent mt-2 text-center text-xl">{{ app.name }}</p>
 				</NuxtLink>
