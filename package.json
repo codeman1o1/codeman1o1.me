@@ -1,33 +1,35 @@
 {
-  "name": "codeman1o1.me",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint .",
-    "pwa-assets": "pwa-assets-generator --preset minimal-2023 public/icon.png"
-  },
-  "dependencies": {
-    "@nuxt/eslint": "^0.6.0",
-    "@nuxtjs/tailwindcss": "^6.12.2",
-    "@vite-pwa/nuxt": "^0.10.5",
-    "nuxt": "^3.13.2",
-    "vue": "^3.5.12",
-    "vue-router": "^4.4.5"
-  },
-  "devDependencies": {
-    "@vite-pwa/assets-generator": "^0.2.6",
-    "eslint": "^9.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.3.3",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-tailwindcss": "^0.6.8",
-    "typescript": "^5.6.3",
-    "vue-tsc": "^2.1.6"
-  }
+	"name": "codeman1o1.me",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"pwa-assets": "pwa-assets-generator --preset minimal-2023 public/icon.png"
+	},
+	"dependencies": {
+		"@nuxt/eslint": "^0.6.0",
+		"@nuxt/fonts": "^0.10.1",
+		"@nuxt/image": "^1.8.1",
+		"@nuxtjs/tailwindcss": "^6.12.2",
+		"@vite-pwa/nuxt": "^0.10.5",
+		"nuxt": "^3.13.2",
+		"vue": "^3.5.12",
+		"vue-router": "^4.4.5"
+	},
+	"devDependencies": {
+		"@vite-pwa/assets-generator": "^0.2.6",
+		"eslint": "^9.13.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"prettier-plugin-organize-imports": "^4.1.0",
+		"prettier-plugin-tailwindcss": "^0.6.8",
+		"typescript": "^5.6.3",
+		"vue-tsc": "^2.1.6"
+	}
 }

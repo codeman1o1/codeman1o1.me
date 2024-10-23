@@ -5,21 +5,22 @@
 			<div
 				class="grid gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6"
 			>
-				<a
+				<NuxtLink
 					v-for="app in apps"
 					:key="app.name"
 					:href="app.url"
+					:external="true"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="flex flex-col items-center rounded-md p-4 transition-colors hover:bg-gray-300 dark:hover:bg-gray-700"
 				>
-					<img
+					<NuxtImg
 						:src="app.imagePath ?? `/images/${app.name.replace(' ', '')}.svg`"
 						:alt="`${app.name} logo`"
 						class="h-32 w-32"
 					/>
 					<p class="parent mt-2 text-center text-xl">{{ app.name }}</p>
-				</a>
+				</NuxtLink>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxt/eslint"],
+	modules: [
+		"@nuxtjs/tailwindcss",
+		"@nuxt/fonts",
+		"@nuxt/image",
+		"@vite-pwa/nuxt",
+		"@nuxt/eslint"
+	],
 	pwa: {
 		registerType: "autoUpdate",
 		manifest: {
