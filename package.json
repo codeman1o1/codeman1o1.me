@@ -9,7 +9,6 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "pwa-assets": "pwa-assets-generator --preset minimal-2023 public/icon.png"
   },
   "dependencies": {
