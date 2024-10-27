@@ -12,6 +12,11 @@
 			media="(prefers-color-scheme: dark)"
 			content="#1e293b"
 		/>
+		<Meta property="og:type" content="website" />
+		<Meta property="og:title" content="codeman1o1.me" />
+		<Meta property="og:url" content="https://codeman1o1.me" />
+		<Meta property="og:image" content="https://codeman1o1.me/icon.png" />
+		<Title>codeman1o1.me</Title>
 	</Head>
 	<NuxtPwaAssets />
 	<main>
