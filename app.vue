@@ -16,12 +16,6 @@
 		<Meta property="og:title" content="codeman1o1.me" />
 		<Meta property="og:url" content="https://codeman1o1.me" />
 		<Meta property="og:image" content="https://codeman1o1.me/icon.png" />
-		<Link rel="preconnect" href="https://fonts.googleapis.com" />
-		<Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-		<Link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-		/>
 		<Title>codeman1o1.me</Title>
 	</Head>
 	<NuxtPwaAssets />
