@@ -5,8 +5,14 @@ export default defineNuxtConfig({
 		"@nuxt/fonts",
 		"@nuxt/image",
 		"@vite-pwa/nuxt",
+		"@nuxtjs/seo",
 		"@nuxt/eslint"
 	],
+	site: {
+		url: "https://codeman1o1.me",
+		name: "codeman1o1.me",
+		defaultLocale: "en"
+	},
 	pwa: {
 		registerType: "autoUpdate",
 		manifest: {
